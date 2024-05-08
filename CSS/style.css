@@ -1,0 +1,160 @@
+header {
+    padding: 0px 25px 0px 25px;
+    background-color: #C1BCBC;
+   
+height: 70px;
+max-width: 100%;
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    gap: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+section.Hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    height: 800px;
+
+}
+section.Hero img {
+    object-fit: cover;
+    max-width: 100%;
+    height: 100%;
+}
+
+body { 
+    margin: 0%;
+    font-family: "Akshar",sans-serif;
+}
+
+    
+.grid { 
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    gap: 20px;
+    max-width: 100%;
+    place-items: center;
+}
+
+.grid img { 
+
+    object-fit: cover;
+    width: 100%;
+    height: 395px;
+    border-radius: 7%;
+    
+    
+}
+
+.subtitle { 
+    padding: 10px 15px 98px 10px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+line-height: normal;
+}
+
+section.blocco {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.blocco { 
+padding: 35px 10px 30px 30px;
+    width: 45%;
+    padding-left: 7%;  
+}
+
+.bottone {
+    color: white;
+    background-color: black;
+    border-radius: 4%;
+    margin: 0px;
+    padding: 0px;
+    height: 18;
+    width: 110px;
+    padding: 6px;
+  padding-top: 6px;
+    }
+
+    footer {
+        background-color: #C1BCBC;
+        justify-content: space-between;
+        align-items: center;
+    }
+.wup {
+display: flex;
+justify-content: space-around;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3px;
+    width: 100%;
+}
+
+.gallery img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.grid {
+    padding: 30px 30px 0px 30px;
+    max-width: 100%;
+}
+
+.artisti {
+    padding: 60px 0px 0px 48px;
+}
+
+.blocco2 {
+    padding: 35px 10px 47px 20px;
+    width: 45%;
+    padding-left: 7%;
+}
+
+.mappa {
+    padding: 150px 10px 80px 20px;
+    justify-content: space-around;
+    display: flex;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+
+.grid a {
+    text-decoration: none;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;  
+}
+
+.grid .card {
+    width: 100%;
+}
+
+.grid a {
+
+    width: 100%;
+}
